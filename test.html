@@ -1,0 +1,16 @@
+<html>
+<body>
+    <div id="random">content</div>
+</body>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#random").on("cool_event", function () {
+            console.log("Hello!");
+        });
+        $("#random").click(function(){
+            $(this).trigger("cool_event");
+        })
+    });
+</script>
+</html>

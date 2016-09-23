@@ -1,0 +1,75 @@
+.big-line-height{
+    line-height: 1.5em;
+}
+
+.bigger-line-height{
+    line-height: 1.5em;
+}
+
+.enormous-line-height {
+    line-height: 4em;
+}
+
+@media print {
+    #printable {
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 5% 0;
+        font-size: 12px;
+    }
+    
+    #page-wrapper > #images {
+        visibility: collapse;
+    }
+    
+    .no-print-display{
+        visibility: collapse;
+    }
+}
+
+#main_page_content-activity_questions > li{
+    margin: 0 0 3em 0;
+}
+
+body, nav, .sidebar {
+    background-color:#BAA997 !important;
+}
+
+nav a:hover, #side-menu > *:active{
+    background-color: #cec2b6 !important;
+}
+
+nav a, navbar-header a{
+    color: #dff0d8 !important;
+}
+
+p{
+    text-indent: 2em;
+}
+
+.small-padding tr td:first-child p {
+    padding: 0.5em 1.1em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.image-wrapper img{
+    height: 180px;
+    border: 10px solid #111111;
+}
+
+.image-wrapper img:hover{
+    border: 10px solid #DDDDDD;
+}
+
+img {
+    max-width: 100%;
+    display:inline-block;
+    vertical-align: center;
+    line-height: normal;
+}
