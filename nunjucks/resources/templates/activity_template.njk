@@ -1,0 +1,11 @@
+{% extends "./main_template.njk" %}
+
+{% block content %}
+    <div class="text-center">
+        <h4 id="main_page_content-shared_title" class="big-line-height">Instituto Tecnológico y de Estudios Superiores
+            de Monterrey<br/>Escuela de Arquitectura, Arte y Diseño<br/>Sustentabilidad Ambiental</h4>
+        <p id="main_page_content-student_data">Nombre: ______________________________________________ Fecha:
+            ____/____/______ Grupo: ______</p>
+    </div>
+    {% block activity_content %}{% endblock %}
+{% endblock %}
