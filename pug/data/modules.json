@@ -1,0 +1,57 @@
+[{
+  "name": "Módulo 1",
+  "body": "Contenido del módulo 1",
+  "icon": "fa-sitemap",
+  "submodules": [
+    {
+      "ref": "#",
+      "name": "submódulo1"
+    },
+    {
+      "ref": "#",
+      "name": "submódulo2"
+    },
+    {
+      "ref": "#",
+      "name": "submódulo3"
+    }
+  ]
+},
+{
+  "name": "Módulo 2",
+  "body": "Contenido del módulo 2",
+  "icon": "fa-sitemap",
+  "submodules": [
+    {
+      "ref": "#",
+      "name": "submódulo1"
+    },
+    {
+      "ref": "#",
+      "name": "submódulo2"
+    },
+    {
+      "ref": "#",
+      "name": "submódulo3"
+    },
+    {
+      "ref": "#",
+      "name": "submódulo4"
+    }
+  ]
+},
+{
+  "name": "Módulo 3",
+  "body": "Contenido del módulo 3",
+  "icon": "fa-sitemap",
+  "submodules": [
+    {
+      "ref": "#",
+      "name": "submodule1"
+    },
+    {
+      "ref": "#",
+      "name": "submodule2"
+    }
+  ]
+}]

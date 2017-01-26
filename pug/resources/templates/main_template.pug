@@ -1,0 +1,133 @@
+doctype html
+//
+    Material Design Lite
+    Copyright 2015 Google Inc. All rights reserved.
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    https://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='description', content='Introducing Lollipop, a sweet new take on Android.')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=1.0')
+        title
+            block title
+                | Diseño Bioclimático
+        // Page styles
+        link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en')
+        link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
+        link(rel='stylesheet', href='https://code.getmdl.io/1.3.0/material.min.css')
+        link(rel='stylesheet', href='styles.css')
+        link(rel='stylesheet', href='material.min.css')
+        style.
+            #view-source {
+                position: fixed;
+                display: block;
+                right: 0;
+                bottom: 0;
+                margin-right: 40px;
+                margin-bottom: 40px;
+                z-index: 900;
+            }
+    body
+        .mdl-layout.mdl-js-layout.mdl-layout--fixed-header
+            .android-header.mdl-layout__header.mdl-layout__header--waterfall
+                .mdl-layout__header-row
+                    span.android-title.mdl-layout-title
+                        img.android-logo-image(src='images/android-logo.png')
+                    // Add spacer, to align navigation to the right in desktop
+                    .android-header-spacer.mdl-layout-spacer
+                    .android-search-box.mdl-textfield.mdl-js-textfield.mdl-textfield--expandable.mdl-textfield--floating-label.mdl-textfield--align-right.mdl-textfield--full-width
+                        label.mdl-button.mdl-js-button.mdl-button--icon(for='search-field')
+                            i.material-icons search
+                        .mdl-textfield__expandable-holder
+                            input#search-field.mdl-textfield__input(type='text')
+                    // Navigation
+                    .android-navigation-container
+                        nav.android-navigation.mdl-navigation
+                            a.mdl-navigation__link.mdl-typography--text-uppercase(href='') Phones
+                            a.mdl-navigation__link.mdl-typography--text-uppercase(href='') Tablets
+                            a.mdl-navigation__link.mdl-typography--text-uppercase(href='') Wear
+                            a.mdl-navigation__link.mdl-typography--text-uppercase(href='') TV
+                            a.mdl-navigation__link.mdl-typography--text-uppercase(href='') Auto
+                            a.mdl-navigation__link.mdl-typography--text-uppercase(href='') One
+                            a.mdl-navigation__link.mdl-typography--text-uppercase(href='') Play
+                    span.android-mobile-title.mdl-layout-title
+                        img.android-logo-image(src='images/android-logo.png')
+                    button#more-button.android-more-button.mdl-button.mdl-js-button.mdl-button--icon.mdl-js-ripple-effect
+                        i.material-icons more_vert
+                    ul.mdl-menu.mdl-js-menu.mdl-menu--bottom-right.mdl-js-ripple-effect(for='more-button')
+                        li.mdl-menu__item 5.0 Lollipop
+                        li.mdl-menu__item 4.4 KitKat
+                        li.mdl-menu__item(disabled='') 4.3 Jelly Bean
+                        li.mdl-menu__item Android History
+            .android-drawer.mdl-layout__drawer
+                span.mdl-layout-title
+                    img.android-logo-image(src='images/android-logo-white.png')
+                nav.mdl-navigation
+                    a.mdl-navigation__link(href='') Phones
+                    a.mdl-navigation__link(href='') Tablets
+                    a.mdl-navigation__link(href='') Wear
+                    a.mdl-navigation__link(href='') TV
+                    a.mdl-navigation__link(href='') Auto
+                    a.mdl-navigation__link(href='') One
+                    a.mdl-navigation__link(href='') Play
+                    .android-drawer-separator
+                    span.mdl-navigation__link(href='') Versions
+                    a.mdl-navigation__link(href='') Lollipop 5.0
+                    a.mdl-navigation__link(href='') KitKat 4.4
+                    a.mdl-navigation__link(href='') Jelly Bean 4.3
+                    a.mdl-navigation__link(href='') Android history
+                    .android-drawer-separator
+                    span.mdl-navigation__link(href='') Resources
+                    a.mdl-navigation__link(href='') Official blog
+                    a.mdl-navigation__link(href='') Android on Google+
+                    a.mdl-navigation__link(href='') Android on Twitter
+                    .android-drawer-separator
+                    span.mdl-navigation__link(href='') For developers
+                    a.mdl-navigation__link(href='') App developer resources
+                    a.mdl-navigation__link(href='') Android Open Source Project
+                    a.mdl-navigation__link(href='') Android SDK
+            .android-content.mdl-layout__content
+                a(name='top')
+                block content
+                footer.android-footer.mdl-mega-footer
+                    .mdl-mega-footer--top-section
+                        .mdl-mega-footer--left-section
+                            button.mdl-mega-footer--social-btn
+                            button.mdl-mega-footer--social-btn
+                            button.mdl-mega-footer--social-btn
+                        .mdl-mega-footer--right-section
+                            a.mdl-typography--font-light(href='#top')
+                                | Back to Top
+                                i.material-icons expand_less
+                    .mdl-mega-footer--middle-section
+                        p.mdl-typography--font-light Satellite imagery: © 2014 Astrium, DigitalGlobe
+                        p.mdl-typography--font-light Some features and devices may not be available in all areas
+                    .mdl-mega-footer--bottom-section
+                        a#version-dropdown.android-link.android-link-menu.mdl-typography--font-light
+                            | Versions
+                            i.material-icons arrow_drop_up
+                        ul.mdl-menu.mdl-js-menu.mdl-menu--top-left.mdl-js-ripple-effect(for='version-dropdown')
+                            li.mdl-menu__item 5.0 Lollipop
+                            li.mdl-menu__item 4.4 KitKat
+                            li.mdl-menu__item 4.3 Jelly Bean
+                            li.mdl-menu__item Android History
+                        a#developers-dropdown.android-link.android-link-menu.mdl-typography--font-light
+                            | For Developers
+                            i.material-icons arrow_drop_up
+                        ul.mdl-menu.mdl-js-menu.mdl-menu--top-left.mdl-js-ripple-effect(for='developers-dropdown')
+                            li.mdl-menu__item App developer resources
+                            li.mdl-menu__item Android Open Source Project
+                            li.mdl-menu__item Android SDK
+                            li.mdl-menu__item Android for Work
+                        a.android-link.mdl-typography--font-light(href='') Blog
+                        a.android-link.mdl-typography--font-light(href='') Privacy Policy
+        script(src='https://code.getmdl.io/1.3.0/material.min.js')

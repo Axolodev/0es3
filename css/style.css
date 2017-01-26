@@ -37,15 +37,26 @@
 }
 
 body, nav, .sidebar {
-    background-color:#BAA997 !important;
+    background-color:#9CCC65 !important;
 }
 
 nav a:hover, #side-menu > *:active{
-    background-color: #cec2b6 !important;
+    background-color: #8D6E63 !important;
 }
 
 nav a, navbar-header a{
-    color: #dff0d8 !important;
+    color: #FF6D00 !important;
+}
+
+.panel-info{
+    border-color: #558B2F;
+}
+
+.panel-info>.panel-heading {
+    background-color: #689F38 !important;
+    border-color: #558B2F;
+    color: white !important;
+    font-weight: 600;
 }
 
 p{
