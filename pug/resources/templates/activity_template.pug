@@ -1,16 +1,34 @@
 extends ./main_template.pug
 
 block content
-    .text-center
-    h4#main_page_content-shared_title.big-line-height
-    | Instituto Tecnológico y de Estudios Superiores
-    | de Monterrey
-    br
-    | Escuela de Arquitectura, Arte y Diseño
-    br
-    | Sustentabilidad Ambiental
-    p#main_page_content-student_data
-    | Nombre: ______________________________________________ Fecha:
-    | ____/____/______ Grupo: ______
+    .demo-ribbon
+    main.demo-main.mdl-layout__content.spacer
+        .mdl-grid
+            .mdl-cell.mdl-cell--2-col.mdl-cell--hide-tablet.mdl-cell--hide-phone
+            .activity-content.mdl-color--white.mdl-shadow--4dp.content.mdl-color-text--grey-800.mdl-cell.mdl-cell--8-col
+                .text-center
+                    h4
+                        | Instituto Tecnológico y de Estudios Superiores
+                        | de Monterrey
+                    br
 
-    block activity_content
+                    | Escuela de Arquitectura, Arte y Diseño
+                    br
+                    | Sustentabilidad Ambiental
+                    p
+                        | Nombre: ______________________________________________ Fecha:
+                        | ____/____/______ Grupo: ______
+                block activity_content
+
+
+        // Footer
+            footer.demo-footer.mdl-mini-footer
+                .mdl-mini-footer--left-section
+                    ul.mdl-mini-footer--link-list
+                        li
+                            a(href='#') Help
+                        li
+                            a(href='#') Privacy and Terms
+                        li
+                            a(href='#') User Agreement
+

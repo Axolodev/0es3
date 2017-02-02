@@ -1,6 +1,6 @@
 extends ../templates/activity_template.pug
-block title
-    Coherencia Sustentable
+prepend title
+    | Coherencia Sustentable
 
 block activity_content
     #images.row
@@ -9,9 +9,8 @@ block activity_content
         a(href='assets/MP1/img3.jpg', tosrus='true', hasimage='false')
         a(href='assets/MP1/img4.gif', tosrus='true', hasimage='false')
     #printable
-        #meh
         #main_page_content-shared_activity_content
-        h3#main_page_content-activity-title.text-center Coherencia Sustentable
+        h4 Coherencia Sustentable
         #main_page_content-activity_description
             strong Contesta ampliamente las siguientes preguntas:
             br
