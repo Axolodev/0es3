@@ -1,0 +1,25 @@
+.mdl-card-wide.mdl-card {
+    width: 100%;
+}
+
+.mdl-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 200px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.mdl-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+.no-margin-top {
+    margin-top: 0 !important;
+}
+
+.no-padding-top {
+    padding-top: 0 !important;
+}
+
+.android-content {
+    background-color: rgb(245,247,250);
+}

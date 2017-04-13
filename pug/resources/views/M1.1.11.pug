@@ -1,0 +1,21 @@
+extends ../templates/activity_template.pug
+prepend title
+    | Arquitectura Islámica
+
+block activity_content
+    .mdl-grid
+        .mdl-cell--12-col.mdl-cell
+            .mdl-card-wide.mdl-card.mdl-shadow--2dp
+                .mdl-card__title(style="background: url('assets/M1.1.11/bagdir_big.jpg') center / cover;")
+                    .mdl-card__title-text Bagdirs: Wind catchers
+        .mdl-layout-spacer
+            include:markdown-it ./content/markdown/M1.1.11/content.md
+            .mdl-grid
+                .mdl-cell--8-col.mdl-cell
+                    .mdl-card-wide.mdl-card.mdl-shadow--2dp
+                        .mdl-card__title(style="background: url('assets/M1.1.11/bagdirs3.jpg') center / cover;")
+                .mdl-cell--4-col.mdl-cell
+                    .mdl-card-wide.mdl-card.mdl-shadow--2dp
+                        .mdl-card__title(style="background: url('assets/M1.1.11/bagdirs1.jpg') center / cover;")
+            br
+

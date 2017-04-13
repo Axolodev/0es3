@@ -2,17 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09348982-529d-46d1-b9f0-c3f2396ce93e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pug/resources/views/MP2.2.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pug/resources/templates/includes/drawer.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pug/resources/views/M1.1.10.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pug/resources/views/M1.1.11.pug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pug/resources/views/content/markdown/M1.1.11/content.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pug/resources/views/stylesheets/own.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/data/modules.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/MP1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/MP2.2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/MP2.3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/MP2.4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP1/img1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP1/img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP1/img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP1/img4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.3/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.3/img1.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.3/img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.3/img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.3/img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.3/img5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.3/img6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.3/img7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.4/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.4/img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.4/img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.4/img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2.4/img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2/Ciudad sostenible.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2/Ciudad sustentable.00.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/MP2/Curitiba.2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/android-logo-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/android-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/andy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/auto-on.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/devices.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/more-from-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/more-from-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/more-from-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/more-from-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/nexus6-on.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/nexus9-on.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/slide01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/tv-on.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/wear-black-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/wear-silver-on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/assets/images/wear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/evaluacion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/templates/activity_template.njk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/templates/main_template.njk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/views/MP1.njk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/views/evaluacion.njk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/nunjucks/resources/views/index.njk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pug/resources/views/material.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pug/resources/views/styles.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pug/resources/templates/activity_template.pug" afterPath="$PROJECT_DIR$/pug/resources/templates/activity_template.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pug/resources/templates/main_template.pug" afterPath="$PROJECT_DIR$/pug/resources/templates/main_template.pug" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pug/resources/views/MP1.html" afterPath="$PROJECT_DIR$/pug/resources/views/MP1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pug/resources/views/MP1.pug" afterPath="$PROJECT_DIR$/pug/resources/views/MP1.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pug/resources/views/MP2.2.html" afterPath="$PROJECT_DIR$/pug/resources/views/MP2.2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pug/resources/views/evaluacion.html" afterPath="$PROJECT_DIR$/pug/resources/views/evaluacion.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pug/resources/views/index.html" afterPath="$PROJECT_DIR$/pug/resources/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pug/resources/views/index.pug" afterPath="$PROJECT_DIR$/pug/resources/views/index.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pug/resources/views/material.min.css" afterPath="$PROJECT_DIR$/pug/resources/views/material.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pug/resources/views/styles.css" afterPath="$PROJECT_DIR$/pug/resources/views/styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,63 +87,52 @@
       <file leaf-file-name="main_template.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pug/resources/templates/main_template.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="72" column="64" lean-forward="false" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pug/resources/views/index.pug">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MP1.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pug/resources/views/MP1.pug">
+      <file leaf-file-name="M1.1.11.pug" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pug/resources/views/M1.1.11.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="248">
+              <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MP2.2.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pug/resources/views/MP2.2.pug">
+      <file leaf-file-name="content.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pug/resources/views/content/markdown/M1.1.11/content.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="M1.1.10.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pug/resources/views/M1.1.10.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2958">
-              <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MP2.2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pug/resources/MP2.2.html">
+      <file leaf-file-name="own.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pug/resources/views/stylesheets/own.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="90" column="22" lean-forward="false" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
-              <folding>
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#8;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#9;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#10;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#11;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#12;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,24 +140,22 @@
       <file leaf-file-name="activity_template.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pug/resources/templates/activity_template.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pug/resources/views/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="531" column="0" lean-forward="true" selection-start-line="531" selection-start-column="0" selection-end-line="531" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Pug File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -146,6 +184,11 @@
       <find>Moondo</find>
       <find>android-logo</find>
       <find>block</find>
+      <find>responsive</find>
+      <find>img</find>
+      <find>card</find>
+      <find>card-wide</find>
+      <find>styles</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,14 +217,19 @@
         <option value="$PROJECT_DIR$/pug/resources/views/evaluacion.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/pug/index.html" />
-        <option value="$PROJECT_DIR$/pug/resources/templates/activity_template.pug" />
         <option value="$PROJECT_DIR$/pug/resources/views/MP1.pug" />
         <option value="$PROJECT_DIR$/pug/resources/views/index.pug" />
         <option value="$PROJECT_DIR$/pug/resources/views/index.html" />
         <option value="$PROJECT_DIR$/pug/resources/MP2.2.html" />
         <option value="$PROJECT_DIR$/pug/resources/views/MP2.2.pug" />
-        <option value="$PROJECT_DIR$/pug/resources/templates/main_template.pug" />
+        <option value="$PROJECT_DIR$/pug/resources/templates/includes/drawer.pug" />
         <option value="$PROJECT_DIR$/pug/resources/views/styles.css" />
+        <option value="$PROJECT_DIR$/pug/resources/views/M1.1.10.pug" />
+        <option value="$PROJECT_DIR$/pug/resources/templates/activity_template.pug" />
+        <option value="$PROJECT_DIR$/pug/resources/templates/main_template.pug" />
+        <option value="$PROJECT_DIR$/pug/resources/views/stylesheets/own.css" />
+        <option value="$PROJECT_DIR$/pug/resources/views/content/markdown/M1.1.11/content.md" />
+        <option value="$PROJECT_DIR$/pug/resources/views/M1.1.11.pug" />
       </list>
     </option>
   </component>
@@ -256,20 +304,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0es3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0es3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="pug" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -322,8 +356,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="index.pug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -344,7 +378,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="markdown" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="M1.1.11" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -359,38 +405,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0es3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0es3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nunjucks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0es3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0es3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,15 +423,16 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="C:\Users\robil\Documents\GitHub\0es3\node_modules\gulp" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\robil\Documents\GitHub\0es3\views" />
-      <recent name="C:\Users\robil\Documents\GitHub\0es3\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\robil\Documents\GitHub\0es3\pug\resources\views" />
       <recent name="C:\Users\robil\Documents\GitHub\0es3\" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\robil\Documents\GitHub\0es3\views" />
+      <recent name="C:\Users\robil\Documents\GitHub\0es3\css" />
     </key>
   </component>
   <component name="RunManager" selected="Gulp.js.Build">
@@ -518,34 +533,44 @@
       <workItem from="1485368359907" duration="9688000" />
       <workItem from="1485454351915" duration="3768000" />
       <workItem from="1485531794202" duration="10292000" />
-      <workItem from="1486049802331" duration="188000" />
+      <workItem from="1486049802331" duration="606000" />
+      <workItem from="1486580316190" duration="666000" />
+      <workItem from="1487267556168" duration="451000" />
+      <workItem from="1487280796171" duration="498000" />
+      <workItem from="1488870519413" duration="3922000" />
+      <workItem from="1488908997459" duration="55000" />
+      <workItem from="1488953640925" duration="3677000" />
+      <workItem from="1489010638610" duration="3334000" />
+      <workItem from="1489077944485" duration="11000" />
+      <workItem from="1489264709371" duration="4053000" />
+      <workItem from="1489368300958" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67546000" />
+    <option name="totallyTimeSpent" value="84683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20758928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1904762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.36309522" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.6369048" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.6369048" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -578,63 +603,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/views/evaluacion.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.html" />
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/content/sidebar-content.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="5" lean-forward="true" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/views/index.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/templates/activity_template.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/templates/main_template.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nunjucks/resources/templates/activity_template.njk" />
+    <entry file="file://$PROJECT_DIR$/nunjucks/resources/templates/main_template.njk" />
     <entry file="file://$PROJECT_DIR$/main_app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -659,13 +629,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulp.js" />
     <entry file="file://$PROJECT_DIR$/views/evaluacion.html" />
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="59" column="29" lean-forward="false" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nunjucks/resources/index.html" />
     <entry file="file://$PROJECT_DIR$/views/content/sidebar-content.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -673,13 +637,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/templates/activity_template.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nunjucks/resources/templates/activity_template.njk" />
     <entry file="file://$PROJECT_DIR$/main_app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -687,13 +645,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nunjucks/data/modules.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nunjucks/data/modules.json" />
     <entry file="file://$PROJECT_DIR$/js/global.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -709,13 +661,7 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/temp/QRAccessControl-master/index.html" />
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/evaluacion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nunjucks/resources/evaluacion.html" />
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -723,13 +669,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/temp/MDL-Android/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="114" column="42" lean-forward="true" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/temp/MDL-Android/index.html" />
     <entry file="file://$PROJECT_DIR$/views/material.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1972">
@@ -744,41 +684,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/MP2.2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/MP1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/views/MP1.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/templates/main_template.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="124" column="24" lean-forward="false" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/views/index.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-463">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nunjucks/resources/MP2.2.html" />
+    <entry file="file://$PROJECT_DIR$/nunjucks/resources/MP1.html" />
+    <entry file="file://$PROJECT_DIR$/nunjucks/resources/views/MP1.njk" />
+    <entry file="file://$PROJECT_DIR$/nunjucks/resources/templates/main_template.njk" />
+    <entry file="file://$PROJECT_DIR$/nunjucks/resources/views/index.njk" />
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -786,13 +696,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nunjucks/resources/views/evaluacion.njk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1228">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/nunjucks/resources/views/evaluacion.njk" />
     <entry file="file://$PROJECT_DIR$/pug/data/modules.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -831,14 +735,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pug/index.html" />
-    <entry file="file://$PROJECT_DIR$/pug/resources/templates/activity_template.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pug/resources/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -848,23 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pug/resources/MP2.2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="90" column="22" lean-forward="false" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="1037">
+          <caret line="221" column="18" lean-forward="false" selection-start-line="221" selection-start-column="18" selection-end-line="221" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -872,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2958">
           <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,30 +760,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pug/resources/views/styles.css" />
+    <entry file="file://$PROJECT_DIR$/pug/resources/templates/includes/drawer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pug/resources/views/stylesheets/material.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="7" column="48419" lean-forward="false" selection-start-line="7" selection-start-column="48419" selection-end-line="7" selection-end-column="48419" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pug/resources/views/stylesheets/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="546" column="0" lean-forward="true" selection-start-line="546" selection-start-column="0" selection-end-line="546" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pug/resources/views/MP1.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pug/resources/views/M1.1.10.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pug/resources/templates/activity_template.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pug/resources/views/stylesheets/own.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pug/resources/templates/main_template.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="64" lean-forward="false" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
+        <state relative-caret-position="357">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pug/resources/views/MP1.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+    <entry file="file://$PROJECT_DIR$/pug/resources/views/content/markdown/M1.1.11/content.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pug/resources/views/styles.css">
+    <entry file="file://$PROJECT_DIR$/pug/resources/views/M1.1.11.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="531" column="0" lean-forward="true" selection-start-line="531" selection-start-column="0" selection-end-line="531" selection-end-column="0" />
+        <state relative-caret-position="248">
+          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding />
         </state>
       </provider>
